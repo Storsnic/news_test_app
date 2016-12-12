@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Symfony Demo application</title>
+                    <link rel="stylesheet" href="/symfony_demo/web/css/myowncss2.css">
+            <link rel="stylesheet" href="/symfony_demo/web/css/font-awesome-4.6.3.min.css">
+            <link rel="stylesheet" href="/symfony_demo/web/css/font-lato.css">
+            <link rel="stylesheet" href="/symfony_demo/web/css/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" href="/symfony_demo/web/css/highlight-solarized-light.css">
+            <link rel="stylesheet" href="/symfony_demo/web/css/main.css">
+                <link rel="icon" type="image/x-icon" href="/symfony_demo/web/favicon.ico" />
+    </head>
+
+    <body id="blog_index">
+
+                    <header>
+                <div class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/symfony_demo/web/ru">
+                                News App
+                            </a>
+
+                            <button type="button" class="navbar-toggle"
+                                    data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                <span class="sr-only">Переключить навигацию</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+
+                                                                    <li>
+                                        <a href="/symfony_demo/web/ru/news/">
+                                            <i class="fa fa-home" aria-hidden="true"></i> Главная страница
+                                        </a>
+                                    </li>
+
+                                                                            <li>
+                                            <a href="/symfony_demo/web/ru/admin/post/">
+                                                <i class="fa fa-lock" aria-hidden="true"></i> Панель управления
+                                            </a>
+                                        </li>
+                                                                    
+                                                                    <li>
+                                        <a href="/symfony_demo/web/ru/logout">
+                                            <i class="fa fa-sign-out" aria-hidden="true"></i> Выйти
+                                        </a>
+                                    </li>
+                                
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        
+        <div class="container body-container">
+                            <div class="row">
+                    <div id="main" class="col-sm-9">
+                        
+
+
+                                    <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D1%84%D0%B0%D1%81-%D0%B2%D0%BE%D0%B7%D0%B1%D1%83%D0%B4%D0%B8%D0%BB%D0%B0-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B4%D0%B5%D0%BB%D0%BE-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-apple-%28%D0%BD%D0%B5%D1%82%29">
+                    ФАС возбудила новое дело против Apple (нет)
+                </a>
+            </h2>
+
+            <p>Алексею Навальному повторили обвинение Японцы отправились в космос убирать мусор Учеба в вузе стала причиной избыточного веса Взрыв в цен</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F-la-la-land-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%B0-%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D1%8E-critics-choice">
+                    Музыкальная комедия La la Land получила премию Critics Choice
+                </a>
+            </h2>
+
+            <p>Учеба в вузе стала причиной избыточного веса Названы самые популярные машины с автоматом Алексею Навальному повторили обвинение Сокращая</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%BD%D0%B5-%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BB%D0%B8-%D0%BF%D1%83%D1%82%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BE%D0%B4%D0%B0">
+                    Россияне признали Путина политиком года
+                </a>
+            </h2>
+
+            <p>ФАС снова возбудила дело против Google ФАС возбудила новое дело против Apple Названы самые популярные машины с автоматом Взрыв в центре Стамбул/p&gt;</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%BD%D0%B5-%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BB%D0%B8-%D0%BF%D1%83%D1%82%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BE%D0%B4%D0%B0">
+                    Россияне признали Путина политиком года
+                </a>
+            </h2>
+
+            <p>Музыкальная комедия La la Land получила премию Critics Choice Учеба в вузе стала причиной избыточного веса Взрыв в центре Стамбула Алексею Навальном/p&gt;</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D1%81%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B0%D1%8F-%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8,-%D1%81%D0%BA%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82-%D0%BD%D1%85%D0%BB-%D0%B2-%D0%B2%D0%B0%D0%BA%D1%83%D1%83%D0%BC%D0%B5.-10-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8">
+                    Сокращая площадки, СКА строит НХЛ в вакууме. 10 выводов недели
+                </a>
+            </h2>
+
+            <p>Японцы отправились в космос убирать мусор Алексею Навальному повторили обвинение В Госдуме предложили ограничить размер премий для глав /p&gt;</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D1%8E-%D0%BD%D0%B0%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%D1%83-%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%BB%D0%B8-%D0%BE%D0%B1%D0%B2%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5">
+                    Алексею Навальному повторили обвинение
+                </a>
+            </h2>
+
+            <p>ФАС возбудила новое дело против Apple Алексею Навальному повторили обвинение В Госдуме предложили ограничить размер премий для глав госкомп</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D0%BA%D0%B8%D0%BD%D0%BE%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D0%BA%D0%B8-%D0%BD%D0%B0%D0%B3%D1%80%D0%B0%D0%B4%D0%B8%D0%BB%D0%B8-%D0%B0%D0%BB%D0%B5%D0%BA%D0%B0-%D0%B1%D0%BE%D0%BB%D0%B4%D1%83%D0%B8%D0%BD%D0%B0-%D0%B7%D0%B0-%D0%BF%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D1%8E-%D0%BD%D0%B0-%D1%82%D1%80%D0%B0%D0%BC%D0%BF%D0%B0">
+                    Кинокритики наградили Алека Болдуина за пародию на Трампа
+                </a>
+            </h2>
+
+            <p>Алексею Навальному повторили обвинение Кинокритики наградили Алека Болдуина за пародию на Трампа Лавров заявил о скоординированности ат/p&gt;</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%BD%D0%B5-%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BB%D0%B8-%D0%BF%D1%83%D1%82%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BE%D0%B4%D0%B0">
+                    Россияне признали Путина политиком года
+                </a>
+            </h2>
+
+            <p>ФАС снова возбудила дело против Google Взрыв в центре Стамбула Лавров заявил о скоординированности атаки на Пальмиру с боями в Алеппо Алексею</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D1%8E-%D0%BD%D0%B0%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%D1%83-%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%BB%D0%B8-%D0%BE%D0%B1%D0%B2%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5">
+                    Алексею Навальному повторили обвинение
+                </a>
+            </h2>
+
+            <p>ФАС возбудила новое дело против Apple Японцы отправились в космос убирать мусор Музыкальная комедия La la Land получила премию Critics Choice ФАС снова </p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/symfony_demo/web/ru/news/posts/%D0%B2-%D0%B3%D0%BE%D1%81%D0%B4%D1%83%D0%BC%D0%B5-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B8%D0%BB%D0%B8-%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B8%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80-%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B9-%D0%B4%D0%BB%D1%8F-%D0%B3%D0%BB%D0%B0%D0%B2-%D0%B3%D0%BE%D1%81%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9">
+                    В Госдуме предложили ограничить размер премий для глав госкомпаний
+                </a>
+            </h2>
+
+            <p>Взрыв в центре Стамбула Россия и ИГ пугают НАТО ФАС снова возбудила дело против Google Названы самые популярные машины с автоматом Алексею На/p&gt;</p>
+        </article>
+    
+    <div class="navigation text-center">
+        <ul class="pagination"><li class="prev disabled"><span>&larr; Предыдущая</span></li><li class="active"><span>1 <span class="sr-only">(current)</span></span></li><li><a href="/symfony_demo/web/ru/news/page/2">2</a></li><li><a href="/symfony_demo/web/ru/news/page/3">3</a></li><li class="next"><a href="/symfony_demo/web/ru/news/page/2">Следующая &rarr;</a></li></ul>
+    </div>
+                    </div>
+
+                    <div id="sidebar" class="col-sm-3">
+                            
+                    </div>
+                </div>
+                    </div>
+
+                    <footer>
+                <div class="container">
+                    <div class="row">
+                        <div id="footer-copyright" class="col-md-6">
+                            <p>&copy; 2016 - News App</p>
+                            <p>MIT Лицензия</p>
+                        </div>
+                        <div id="footer-resources" class="col-md-6">
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+                    <script src="/symfony_demo/web/js/jquery-2.2.4.min.js"></script>
+            <script src="/symfony_demo/web/js/moment.min.js"></script>
+            <script src="/symfony_demo/web/js/bootstrap-3.3.7.min.js"></script>
+            <script src="/symfony_demo/web/js/highlight.pack.js"></script>
+            <script src="/symfony_demo/web/js/bootstrap-datetimepicker.min.js"></script>
+            <script src="/symfony_demo/web/js/main.js"></script>
+        
+                <!-- Page rendered on December 12, 2016, 10:09:39 PM GMT -->
+    </body>
+</html>
